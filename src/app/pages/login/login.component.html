@@ -1,0 +1,47 @@
+<div class="container">
+    <h2><img src="../../../assets/cadeado.svg"></h2>
+</div>
+<div class="container2">
+    <h3>Login</h3>
+    <form [formGroup]="formLogin">
+
+        <div class="row"><label></label></div>
+        <div class="row justify-content-around">
+            <div class="col-8">
+                <div class="input-group mt-5">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text id=inputGroup-sizing-default"> <img
+                                src="../../../assets/icon.svg"></span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default"
+                        aria-describedby="inputGroup-sizing-default" placeholder="Usuário"
+                        formControlName="usuario">
+                </div>
+            </div>
+
+        </div>
+        <div clas="row"><label></label></div>
+        <div class="row justify-content-around">
+            <div class="col-8">
+                <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+
+                        <span class="input-group-text id=inputGroup-sizing-default"> <img
+                                src="../../../assets/iconsenha.svg"></span>
+                    </div>
+
+                    <input type="password" class="form-control" aria-label="Default"
+                        aria-describedby="inputGroup-sizing-default" placeholder="Senha" formControlName="senha">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-3 mt-5">
+                <button type="button" class="btn btn-primary btn-lg"
+                    [disabled]="formLogin.get('usuario').invalid || formLogin.get('senha').invalid"
+                    (click)="montaObjeto()">Entrar</button>
+            </div>
+        </div>
+
+    </form>
+</div>

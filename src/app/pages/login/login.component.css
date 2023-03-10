@@ -1,0 +1,28 @@
+
+.container2{
+    position: absolute;
+    width:35.14%;
+    right:0;
+    
+    height: 100%;
+
+    background-color:#1E1E1E;
+}
+.container{
+    position: absolute;
+    width:64.86%;
+    height: 100%;
+    left:0;
+    background-color: #0456C1;
+    
+}
+
+h3{
+    margin-top: 200px;
+    color:white;
+    size:48px;
+    justify-content: center;
+    text-align: center;
+    font-family: Share Tech;
+    
+}
