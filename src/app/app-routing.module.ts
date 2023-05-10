@@ -9,6 +9,18 @@ const routes: Routes = [
   {
     path:'home',
     loadChildren:() => import('./pages/home/home.module').then(m=>m.HomeModule)
+  },
+  {
+    path:'cadastro',
+    loadChildren:()=> import('./pages/cadastro/cadastro.module').then(m=>m.CadastroModule)
+  },
+  {
+    path:'editar-cadastro',
+    loadChildren:()=> import('./pages/editcadastro/editcadastro.module').then(m=>m.EditcadastroModule)
+  },
+  {
+    path:'historico',
+    loadChildren:()=> import('./pages/historico/historico.module').then(m=>m.HistoricoModule)
   }
 ];
 
