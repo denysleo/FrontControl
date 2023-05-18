@@ -17,19 +17,5 @@ export class HomeComponent {
   OnInit() {
 
   }
-  NovoCadastro(): void {
-    this.navegacao("cadastro");
-  }
 
-  editCadastro(): void {
-    this.navegacao("editar-cadastro")
-  }
-
-  historico(): void {
-    this.navegacao("historico")
-  }
-  
-  navegacao(link: string) {
-    this.router.navigate([link]);
-  }
 }

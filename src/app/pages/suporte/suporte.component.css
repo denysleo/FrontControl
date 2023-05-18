@@ -1,0 +1,55 @@
+.container-titulo {
+    width: 551px;
+    height: 51px;
+    background-color: #718C99;
+    margin-left: 40%;
+    margin-top: -45%;
+}
+
+p {
+    margin-left: 5%;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 20px;
+    width: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container-form {
+    width: 870px;
+    height: 400px;
+    background-color: white;
+    margin-left: 28%;
+    margin-top: 5%;
+}
+
+.assunto {
+    margin-top: 86px;
+    margin-left: 55px;
+}
+
+.input-assunto {
+    margin-left: 4%;
+    width: 574px;
+
+}
+
+.sugestao {
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.input-sugestao {
+    margin-left: 3%;
+    width: 574px;
+    height: 150px;
+    margin-top: 6%;
+
+}
+
+button {
+    margin-left: 80%;
+    margin-top: 3%;
+    width: 160px;
+}

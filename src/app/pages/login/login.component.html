@@ -1,47 +1,26 @@
-<div class="container">
-    <h2><img src="../../../assets/cadeado.svg"></h2>
-</div>
-<div class="container2">
-    <h3>Login</h3>
-    <form [formGroup]="formLogin">
-
-        <div class="row"><label></label></div>
-        <div class="row justify-content-around">
-            <div class="col-8">
-                <div class="input-group mt-5">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text id=inputGroup-sizing-default"> <img
-                                src="../../../assets/icon.svg"></span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Default"
-                        aria-describedby="inputGroup-sizing-default" placeholder="Usuário"
-                        formControlName="usuario">
+<div class="container-fluid">
+    <div class="container-login">
+        <p>Login</p>
+        <form [formGroup]="formLogin">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
                 </div>
+                <input type="text" class="form-control rounded" placeholder="Usuário" aria-label="Username"
+                    formControlName="usuario" aria-describedby="basic-addon1">
             </div>
 
-        </div>
-        <div clas="row"><label></label></div>
-        <div class="row justify-content-around">
-            <div class="col-8">
-                <div class="input-group mt-3">
-                    <div class="input-group-prepend">
-
-                        <span class="input-group-text id=inputGroup-sizing-default"> <img
-                                src="../../../assets/iconsenha.svg"></span>
-                    </div>
-
-                    <input type="password" class="form-control" aria-label="Default"
-                        aria-describedby="inputGroup-sizing-default" placeholder="Senha" formControlName="senha">
+            <div class="input-group password">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
                 </div>
+                <input type="password" class="form-control rounded" placeholder="Senha" aria-label="Senha"
+                    formControlName="senha" aria-describedby="basic-addon1">
             </div>
-        </div>
-        <div class="row justify-content-around">
-            <div class="col-3 mt-5">
-                <button type="button" class="btn btn-primary btn-lg"
-                    [disabled]="formLogin.get('usuario').invalid || formLogin.get('senha').invalid"
-                    (click)="buscaLogin()">Entrar</button>
-            </div>
-        </div>
 
-    </form>
+        </form>
+
+        <button type="button" class="btn btn-primary rounded" (click)="buscaLogin()">Entrar</button>
+    </div>
+
 </div>

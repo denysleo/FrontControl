@@ -1,28 +1,37 @@
+.container-login {
 
-.container2{
-    position: absolute;
-    width:35.14%;
-    right:0;
-    
-    height: 100%;
-
-    background-color:#1E1E1E;
-}
-.container{
-    position: absolute;
-    width:64.86%;
-    height: 100%;
-    left:0;
-    background-color: #0456C1;
-    
+    width: 33.9622641509434vw;
+    height: 79.74481658692186vh;
+    margin-top: 13.078149920255184vh;
+    margin-left: 70.97288676236045vh;
+    background-color: white;
+    position: relative;
 }
 
-h3{
+p {
+    font-size: 48px;
+    color: #4A4A4A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 80px;
+    position: absolute;
+    margin-left: 35%;
+}
+
+.input-group {
+    position: absolute;
     margin-top: 200px;
-    color:white;
-    size:48px;
-    justify-content: center;
-    text-align: center;
-    font-family: Share Tech;
-    
+    width: 70%;
+    margin-left: 13%;
+}
+
+.password {
+    margin-top: 300px;
+}
+
+button {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 33%;
+    width: 146px;
 }

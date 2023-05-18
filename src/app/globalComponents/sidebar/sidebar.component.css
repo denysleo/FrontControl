@@ -1,0 +1,88 @@
+.container{
+    width:  22.79245283018868vw;
+    height: 100vh;
+    background-color: white;
+    margin-left: -2%;
+}
+.logo{
+    background-image: url(../../../assets/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16.150943396226417vw;
+    height: 10.685805422647528vh;
+    margin-left: 1.509433962264151vw;
+}
+button{
+    position: absolute;
+    margin-top: 5%;
+    margin-left:0%;
+    width: 21%;
+    
+}
+.help-button{
+    margin-left: 0%;
+    color: #000000 59%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    
+}
+.help{
+    margin-top: 40%;
+
+    margin-left: 0%;
+ 
+}
+.historico{
+    margin-top: 28.708133971291865vh;
+   
+    
+}
+
+.historico-button{
+    margin-left: 0%;
+    color: #000000 59%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+
+.suporte{
+    margin-top: 51.036682615629985vh;
+    
+}
+.suporte-button{
+    margin-left: 0%;
+    color: #000000 59%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+.registro{
+    margin-top: 39.87240829346093vh;
+}
+.registro-button{
+    margin-left:0%;
+    color: #000000 59%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+}
+
+@media (max-width:800px) {
+    button{
+        width: 16%;
+    }
+    .historico-button{
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    .registro-button{
+        margin-top: 4%;
+        font-size: 12px;
+    }
+    .help-button{
+        margin-top: 8%;
+    }
+    
+}

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+    <app-sidebar></app-sidebar>
+    <div class="container-titulo">
+        <p>Dúvidas, reclamações, problemas, mande aqui!</p>
+    </div>
+    <div class="container-form">
+        <form [formGroup]="formSuporte">
+
+            <div class="assunto">
+
+                <label for="assunto" class="assunto">Assunto:</label>
+                <input class="input-assunto" type="text" id="assunto" formControlName="assunto">
+            </div>
+
+            <div class="sugestão">
+                <label for="sugestao" class="sugestao">Escreva aqui:</label>
+                <input type="text" class="input-sugestao" id="sugestao" formControlName="sugestao">
+            </div>
+        </form>
+        <button type="button" class="btn btn-primary" (click)="montaObjeto()">Enviar</button>
+    </div>
+</div>

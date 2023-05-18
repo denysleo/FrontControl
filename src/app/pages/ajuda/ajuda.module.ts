@@ -1,18 +1,21 @@
 import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HistoricoRoutingModule } from './historico-routing.module';
+import { AjudaRoutingModule } from './ajuda-routing.module';
+import { AjudaComponent } from './ajuda.component';
 import { GlobalComponentsModule } from 'src/app/globalComponents/global-components.module';
-import { HistoricoComponent } from './historico.component';
 
 
 @NgModule({
-  declarations: [HistoricoComponent],
+  declarations: [AjudaComponent],
   imports: [
     CommonModule,
-    HistoricoRoutingModule,
+    AjudaRoutingModule,
     GlobalComponentsModule,
+  ],
+  exports: [ 
+    AjudaComponent
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
-export class HistoricoModule { }
+export class AjudaModule { }

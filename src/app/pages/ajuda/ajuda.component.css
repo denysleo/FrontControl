@@ -1,0 +1,37 @@
+.container-logo {
+    background-image: url(../../../assets/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 139px;
+    margin-left: 35%;
+    margin-top: -48%;
+    position: absolute;
+}
+
+.container-ajuda {
+    width: 870px;
+    height: 400px;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: -35%;
+    position: absolute;
+}
+
+h1 {
+    font-size: 20px;
+    width: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-left: 4%;
+    align-items: left;
+}
+
+h3 {
+    font-size: 20px;
+    width: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+    margin-left: 4%;
+    align-items: left;
+}
